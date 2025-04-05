@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiUrl: process.env.API_URL || "https://15.228.16.62",
+      apiUrl: 'https://15.228.16.62:3003',
     },
   },
   plugins: ["~/plugins/axios.ts"],
