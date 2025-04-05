@@ -1,5 +1,5 @@
-import axios from 'axios';
+import axios, { AxiosInstance } from 'axios';
 
-export const api = axios.create({
-  baseURL: 'http://localhost:3002'  // ajuste para sua URL base
+export const api: AxiosInstance = axios.create({
+  baseURL: 'https://15.228.16.62:3003'
 }); 
