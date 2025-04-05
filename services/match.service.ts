@@ -2,8 +2,6 @@ import type {
   CreateMatchDto,
   MatchDto,
 } from "sistema-rachas-domain/dto/match.dto";
-import type { MatchWithRelationsDto } from "../types/match.type";
-import { api } from "./api";
 import type { CreateTeamDto } from 'sistema-rachas-domain/dto/team.dto';
 
 const resource = "/match";

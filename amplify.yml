@@ -3,15 +3,12 @@ frontend:
   phases:
     preBuild:
       commands:
-        - nvm install 18.20.5
-        - nvm use 18.20.5
-        - node -v
         - yarn install
     build:
       commands:
-        - yarn run build
+        - yarn run generate
   artifacts:
-    baseDirectory: .output
+    baseDirectory: .output/public
     files:
       - '**/*'
   cache:
